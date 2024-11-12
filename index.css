@@ -1,0 +1,10 @@
+.slider-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  /* transition: transform 0.5s linear; */
+}
+
+.slider-container div {
+  flex-shrink: 0;
+}

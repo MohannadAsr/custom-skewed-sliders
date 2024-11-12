@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <title>Rotated Sliders</title>
+  </head>
+  <body>
+    <div
+      class="w-full flex flex-row justify-center items-center relative z-30 pb-[5rem] pt-[15rem] lg:pt-[10rem] lg:pb-[10rem] overflow-clip"
+    >
+      <div
+        class="relative rotate-[-7.1deg] flex-shrink-0 origin-center flex flex-col items-start overflow-clip justify-start gap-[0.5rem] lg:gap-[0.8rem] w-[130vw] max-w-[unset]"
+      >
+        <div
+          class="absolute top-[-3rem] start-0 w-full h-[10rem] lg:h-[20rem] from-white to-transparent bg-gradient-to-b z-[10]"
+        ></div>
+        <div
+          class="absolute bottom-[-1rem] start-0 w-full h-[10rem] lg:h-[22rem] from-white to-transparent bg-gradient-to-t z-[10]"
+        ></div>
+        <div
+          class="slider-container animation-right flex items-start flex-row justify-center gap-[0.5rem] lg:gap-[0.8rem] flex-nowrap max-w-[unset] relative"
+        ></div>
+        <div
+          class="slider-container animation-right flex items-start flex-row justify-center gap-[0.5rem] lg:gap-[0.8rem] flex-nowrap max-w-[unset] relative"
+        ></div>
+        <div
+          class="slider-container animation-right flex items-start flex-row justify-center gap-[0.5rem] lg:gap-[0.8rem] flex-nowrap max-w-[unset] relative"
+        ></div>
+      </div>
+    </div>
+    <!-- <script src="./interval.js"></script> -->
+    <script src="./index.js"></script>
+    <!-- <script src="./gsapindex.js"></script> -->
+  </body>
+</html>
